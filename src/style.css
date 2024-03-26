@@ -1,0 +1,93 @@
+body {
+    background-image: url('./img/FUNDO3.jpg');
+    margin: 0PX;
+    background-repeat: repeat;
+
+}
+
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 65, 54, 0.7);
+    align-items: center;
+
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 80px;
+    margin: 0px 10px 0px 0px;
+}
+
+.header-navigation ul {
+    display: flex;
+    gap: 10px;
+    color: white;
+    margin: 20PX;
+
+
+}
+
+.header-navigation a,
+li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+main div {
+    background-color: rgb(240, 240, 240, 0.9);
+    margin: 20px 300px;
+    padding: 20px;
+    border-radius: 20px;
+
+    font-size: 20px;
+
+}
+
+small a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.botao {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px 700px;
+}
+
+small {
+    border: 5px white;
+    background-color: white;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px 32px;
+
+}
+
+small a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+small a:hover {
+    text-decoration: underline;
+}
