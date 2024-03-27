@@ -50,7 +50,8 @@ main div {
     margin: 20px 300px;
     padding: 20px;
     border-radius: 20px;
-
+    display: block;
+    text-align: center;
     font-size: 20px;
 
 }
